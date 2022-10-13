@@ -9,6 +9,20 @@ $text = 'Ciao sono una variabile con un paragrafo di testo a mia scelta!';
 
 $censoredWord = $_GET['word'];
 
+$testarray = ['Mele', 'Pere', 'Banane', 5];
+
+$testarray2 = [
+    'nome' => 'Valerio',
+    'cognome' => 'Failah',
+    'età' => '15 anni',
+];
+
+var_dump($testarray);
+
+var_dump($testarray2);
+
+echo 'Il cognome è: ' . $testarray2['cognome'];
+
 ?>
 
 <h1>
